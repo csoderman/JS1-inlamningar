@@ -1,6 +1,5 @@
 const formReg = document.querySelector('#formReg');
 const usersList = document.querySelector('#usersList');
-    // Get form values
 const firstName = document.querySelector('#firstName');
 const lastName = document.querySelector('#lastName');
 const email = document.querySelector('#email');
@@ -18,7 +17,7 @@ class User {
 
 class UI {
     static addUser = (user) => {
-
+        // Add user to array
         users.push(user);
         console.log(users);
 
